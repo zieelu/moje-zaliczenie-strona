@@ -16,11 +16,14 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #333;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/motocykl_header.jpg');
+    background-size: cover;
     color: white;
     text-align: center;
-    padding: 15px;
-    font-size: 24px;
+    padding: 30px;
+    font-size: 36px;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     z-index: 1000; /* zapewnia, że header będzie na wierzchu */
 }
 
@@ -33,14 +36,14 @@ header {
 
 /* Kolumna lewa */
 .column-left {
-    width: 50%; /* Zmniejszenie szerokości, aby była równowaga */
+    width: 30%; /* Zmieniono szerokość lewa kolumna na 30% */
     padding: 20px;
     background-color: #f4f4f4;
 }
 
 /* Kolumna prawa */
 .column-right {
-    width: 50%; /* Zmniejszenie szerokości, aby była równowaga */
+    width: 70%; /* Zmieniono szerokość prawa kolumna na 70% */
     padding: 20px;
     background-color: #ddd;
     text-align: center;
@@ -65,4 +68,3 @@ header {
     font-size: 18px;
     padding-right: 20px;
 }
-
