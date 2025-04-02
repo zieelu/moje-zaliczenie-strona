@@ -16,8 +16,10 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    /* Sprawdź ścieżkę do pliku tła */
     background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/motocykl_header.jpg');
     background-size: cover;
+    background-position: center center;
     color: white;
     text-align: center;
     padding: 30px;
