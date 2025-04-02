@@ -23,11 +23,12 @@ header {
     padding: 30px;
     font-size: 36px;
     font-family: 'Oswald', sans-serif;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Cień tekstu, by był lepiej widoczny na tle */
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8); /* Bardziej wyraźny cień tekstu */
     z-index: 1000;
-    /* Użycie delikatniejszej przezroczystości */
-    background-color: rgba(0, 0, 0, 0.3); /* Przezroczystość zmniejszona do 30% */
+    background-color: rgba(0, 0, 0, 0.4); /* Mniejsza przezroczystość */
+    font-weight: bold; /* Pogrubienie tekstu, by był wyraźniejszy */
 }
+
 
 
 /* Ustawienia dla kontenera (dwie kolumny) */
