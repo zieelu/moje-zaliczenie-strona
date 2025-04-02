@@ -16,10 +16,9 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    /* Sprawdź ścieżkę do pliku tła */
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/motocykl_header.jpg');
+    /* Dodajemy przezroczystość za pomocą rgba w tło */
+    background: url('images/motocykl_header.jpg') no-repeat center center;
     background-size: cover;
-    background-position: center center;
     color: white;
     text-align: center;
     padding: 30px;
@@ -27,6 +26,7 @@ header {
     font-family: 'Oswald', sans-serif;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     z-index: 1000; /* zapewnia, że header będzie na wierzchu */
+    background-color: rgba(0, 0, 0, 0.5); /* Przezroczysty czarny gradient na tle */
 }
 
 /* Ustawienia dla kontenera (dwie kolumny) */
