@@ -38,10 +38,11 @@
 
     <!-- Galeria dodatkowa ze strzałkami -->
     <div class="slider-section">
-        <h2>Galeria dodatkowa</h2>
+        <h2>Galeria Afryka</h2>
         <div class="image-slider">
             <button class="arrow" id="prevBtn">&#8592;</button>
-            <img id="sliderImage" src="images/placeholder.jpg" alt="Galeria motocykli">
+            <!-- Ustawiony od razu pierwszy obrazek z tablicy -->
+            <img id="sliderImage" src="images/afryka01.jpg" alt="Galeria motocykli">
             <button class="arrow" id="nextBtn">&#8594;</button>
         </div>
     </div>
@@ -76,7 +77,7 @@
             updateImage();
         });
 
-        updateImage();
+        // Inicjalizacja nie jest potrzebna, bo pierwszy obrazek jest ustawiony w tagu <img>
     </script>
 </body>
 </html>
