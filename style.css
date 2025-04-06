@@ -23,13 +23,11 @@ header {
     padding: 30px;
     font-size: 36px;
     font-family: 'Oswald', sans-serif;
-    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8); /* Bardziej wyraźny cień tekstu */
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8);
     z-index: 1000;
-    background-color: rgba(0, 0, 0, 0.4); /* Mniejsza przezroczystość */
-    font-weight: bold; /* Pogrubienie tekstu, by był wyraźniejszy */
+    background-color: rgba(0, 0, 0, 0.4);
+    font-weight: bold;
 }
-
-
 
 /* Ustawienia dla kontenera (dwie kolumny) */
 .container {
@@ -71,4 +69,45 @@ header {
     padding: 10px;
     font-size: 18px;
     padding-right: 20px;
+}
+
+/* Galeria dodatkowa (slider) */
+.slider-section {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.slider-section h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.image-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image-slider img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.arrow {
+    font-size: 2rem;
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.arrow:hover {
+    background-color: #555;
 }
